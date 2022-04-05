@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="user-card-with-tags"></div>
+
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.15.1/babel.js"></script>
+    <script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script>
+    <script data-plugins="transform-modules-umd" data-presets="react" data-type="module" type="text/babel" src="./index.tsx"></script>
+    <!-- <script data-plugins="transform-modules-umd" data-presets="react" data-type="module" type="text/babel">
+        import React from 'react'
+        import ReactDOM from 'react-dom'
+        import UserCardWithTags from './UserCardWithTags'
+
+        const e = React.createElement
+        const UserCardWithTagsDemo = () => {
+            return <UserCardWithTags  user={{
+                firstName: '',
+                lastName: '',
+                speciality: '',
+                city: '',
+                country: '',
+                month: '',
+                year: '',
+                image: ''
+            }} tags={[]} /> 
+        }
+        const domContainer = document.querySelector('#user-card-with-tags')
+        ReactDOM.render(e(UserCardWithTagsDemo), domContainer)
+    </script> -->
+</body>
+</html>
